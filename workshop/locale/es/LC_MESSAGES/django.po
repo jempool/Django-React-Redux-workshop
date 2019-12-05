@@ -1,0 +1,66 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-05 15:06+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: workshop/links/models.py:7 workshop/links/models.py:22
+msgid "name"
+msgstr "nombre"
+
+#: workshop/links/models.py:8 workshop/links/models.py:25
+msgid "description"
+msgstr "descripción"
+
+#: workshop/links/models.py:10 workshop/links/models.py:27
+msgid "user"
+msgstr "usuario"
+
+#: workshop/links/models.py:17 workshop/links/models.py:42
+msgid "tag"
+msgstr "etiqueta"
+
+#: workshop/links/models.py:18
+msgid "tags"
+msgstr "etiquetas"
+
+#: workshop/links/models.py:23
+msgid "url"
+msgstr "url"
+
+#: workshop/links/models.py:24
+msgid "pending"
+msgstr "pendiente"
+
+#: workshop/links/models.py:34 workshop/links/models.py:39
+msgid "link"
+msgstr ""
+
+#: workshop/links/models.py:35
+msgid "links"
+msgstr "enlace"
+
+#: workshop/links/models.py:48 workshop/links/models.py:49
+msgid "link x tag"
+msgstr "enlace x etiqueta"
+
+#: workshop/settings.py:126
+msgid "Spanish"
+msgstr "Español"
+
+#: workshop/settings.py:127
+msgid "English"
+msgstr "Inglés"
