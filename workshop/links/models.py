@@ -36,11 +36,8 @@ class Link(models.Model):
 
 
 class LinkTag(models.Model):
-    link = models.ForeignKey(Link, verbose_name=_('link'),
-                             on_delete=models.CASCADE)
-
-    tag = models.ForeignKey(Tag, verbose_name=_('tag'),
-                             on_delete=models.CASCADE)
+    link = models.ForeignKey(Link, verbose_name=_('link'), on_delete=models.CASCADE)
+    tag = models.ForeignKey(Tag, verbose_name=_('tag'), on_delete=models.CASCADE)
 
 
     class Meta:
