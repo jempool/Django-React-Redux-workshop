@@ -15,11 +15,11 @@
     "plugins": [
         "react"
     ],
-    "rules": {
-        "indent": [
-            "error",
-            "tab"
-        ],
+    // "rules": {
+    //     "indent": [
+    //         "error",
+    //         "tab"
+    //     ],
         "linebreak-style": [
             "error",
             "unix"

@@ -3,9 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "start": "node server.js",
-    "react-devtools": "react-devtools",
-    "eslint": "./node_modules/.bin/eslint --ext .jsx --ext .js src",
-    "eslint-report": "./node_modules/.bin/eslint -f node_modules/eslint-html-reporter/reporter.js -o report.html --ext .jsx --ext .js src || true"
+    "react-devtools": "react-devtools"
   },
   "devDependencies": {
     "babel": "^6.23.0",
@@ -23,9 +21,9 @@
     "eslint-plugin-jest": "^21.2.0",
     "eslint-plugin-react": "^7.17.0",
     "react-test-renderer": "^16.0.0",
-    "webpack": "^4.41.2",
+    "webpack": "^1.12.13",
     "webpack-bundle-tracker": "0.0.93",
-    "webpack-dev-server": "^3.9.0"
+    "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
