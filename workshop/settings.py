@@ -42,6 +42,7 @@ INSTALLED_APPS = [
 
     'workshop.links',
     'webpack_loader',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -137,14 +138,19 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'workshop/links/static'),### 'links/static'
+    os.path.join(BASE_DIR, 'workshop/links/static'),
     os.path.join(BASE_DIR, 'front/workshop/static'),
 ]
 
 WEBPACK_LOADER = {
     'DEFAULT': {
-        'BUNDLE_DIR_NAME': 'bundles/local/',  # end with slash
+        'BUNDLE_DIR_NAME': 'bundles/local/',
         'STATS_FILE': os.path.join(BASE_DIR, 'front/webpack-stats-local.json'),
     }
 }
 
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+    ]
+}
